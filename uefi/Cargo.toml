@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 log = "0.4"
 uefi = "0.24.0"
-uefi-services = "0.21"
+uefi-services = "0.21.0"
 
 [profile.dev]
 panic = "abort"

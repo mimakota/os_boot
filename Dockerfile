@@ -1,7 +1,6 @@
 FROM rust:1.70.0
 
 
-
 # 必要パッケージのインストール
 RUN apt update && apt -y install qemu-system-x86 qemu-utils ovmf curl　
 
